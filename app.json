@@ -16,10 +16,14 @@
       "supportsTablet": false,
       "bundleIdentifier": "com.bonattopizza.motoboy",
       "infoPlist": {
-        "NSLocationAlwaysAndWhenInUseUsageDescription": "O aplicativo usa sua localiza\u00e7\u00e3o para rastrear entregas em tempo real e informar o cliente sobre o status do pedido.",
-        "NSLocationWhenInUseUsageDescription": "O aplicativo usa sua localiza\u00e7\u00e3o para rastrear entregas em tempo real.",
-        "NSLocationAlwaysUsageDescription": "O aplicativo usa sua localiza\u00e7\u00e3o em segundo plano para rastrear entregas mesmo com a tela desligada.",
-        "UIBackgroundModes": ["location", "fetch", "remote-notification"]
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "O aplicativo usa sua localização para rastrear entregas em tempo real e informar o cliente sobre o status do pedido.",
+        "NSLocationWhenInUseUsageDescription": "O aplicativo usa sua localização para rastrear entregas em tempo real.",
+        "NSLocationAlwaysUsageDescription": "O aplicativo usa sua localização em segundo plano para rastrear entregas mesmo com a tela desligada.",
+        "UIBackgroundModes": [
+          "location",
+          "fetch",
+          "remote-notification"
+        ]
       }
     },
     "android": {
@@ -47,9 +51,9 @@
       [
         "expo-location",
         {
-          "locationAlwaysAndWhenInUsePermission": "O aplicativo usa sua localiza\u00e7\u00e3o para rastrear entregas em tempo real.",
-          "locationAlwaysPermission": "O aplicativo usa sua localiza\u00e7\u00e3o em segundo plano para rastrear entregas.",
-          "locationWhenInUsePermission": "O aplicativo usa sua localiza\u00e7\u00e3o para rastrear entregas.",
+          "locationAlwaysAndWhenInUsePermission": "O aplicativo usa sua localização para rastrear entregas em tempo real.",
+          "locationAlwaysPermission": "O aplicativo usa sua localização em segundo plano para rastrear entregas.",
+          "locationWhenInUsePermission": "O aplicativo usa sua localização para rastrear entregas.",
           "isIosBackgroundLocationEnabled": true,
           "isAndroidBackgroundLocationEnabled": true
         }
@@ -62,7 +66,8 @@
           "androidMode": "default",
           "androidCollapsedTitle": "Bonatto Motoboy"
         }
-      ]
+      ],
+      "expo-secure-store"
     ],
     "extra": {
       "eas": {
